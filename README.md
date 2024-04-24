@@ -34,13 +34,13 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity updn is
 
-    Port ( clk : in STD_LOGIC;
+Port ( clk : in STD_LOGIC;
     
-           clr : in STD_LOGIC;
+clr : in STD_LOGIC;
            
-           updown : in std_logic;
+updown : in std_logic;
            
-           count : out std_logic_vector (7 downto 0));
+count : out std_logic_vector (7 downto 0));
 
 end updn;
 
